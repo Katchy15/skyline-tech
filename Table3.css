@@ -3,7 +3,7 @@ body{
 }
 .container{
   background-color: white;
-  width: 70%;
+  width: 50%;
   margin: auto;
   margin-top: 30px;
   font-family:'Times New Roman', Times, serif;
@@ -11,33 +11,32 @@ body{
   border-radius: 30px;
 }
 Table, tr, td{
-  border: 2px solid rgb(237, 230, 230);
+  /* border: 2px solid rgb(237, 230, 230); */
   border-collapse: collapse;
-  /* border-bottom: 0.5px solid grey; */
+  border-top: 0.5px solid rgb(219, 211, 211);
 }
 Table{
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 Caption{
   font-size: 20px;
-  text-transform: capitalize;
   font-weight: bold;
-  padding-top: 10px;
-  text-align: left;
+  padding-top: 15px;
+  background-color: rgb(243, 193, 101);
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  color: white;
 }
 td{
   text-align: center;
-  padding: 8px;
 }
-Thead{
+th{
+  text-align: left;
   background-color: dodgerblue;
-  font-weight: bolder;
   color: white;
-}
-tr:nth-child(even){
-  background-color: rgb(230, 226, 226);
-}
-tr:hover{
-  background-color: rgb(225, 214, 184);
 }
