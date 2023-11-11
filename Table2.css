@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+}
+.container{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  font-family:'Times New Roman', Times, serif;
+  padding-bottom: 50px;
+  border-radius: 30px;
+}
+Table, tr, td{
+  border: 2px solid rgb(237, 230, 230);
+  border-collapse: collapse;
+  /* border-bottom: 0.5px solid grey; */
+}
+Table{
+  width: 80%;
+  margin: auto;
+}
+Caption{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: left;
+}
+td{
+  text-align: center;
+  padding: 8px;
+}
+Thead{
+  background-color: dodgerblue;
+  font-weight: bolder;
+  color: white;
+}
+tr:nth-child(even){
+  background-color: rgb(230, 226, 226);
+}
+tr:hover{
+  background-color: rgb(225, 214, 184);
+}
