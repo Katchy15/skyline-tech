@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(10, 10, 10);
+}
+.container{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  font-family:'Times New Roman', Times, serif;
+  padding-bottom: 50px;
+  border-radius: 30px;
+}
+
+Table{
+  width: 80%;
+  margin: auto;
+}
+Caption{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-top: 10px;
+}
+Table, tr, td{
+  /* border: 2px solid gray; */
+  border-collapse: collapse;
+  border-bottom: 0.5px solid rgb(192, 186, 186);
+}
+td{
+  text-align: center;
+  padding: 5px 0px;
+}
+th{
+  font-size: 20px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 0px;
+}
+.pass{
+  background-color: green;
+  font-size: 20px;
+  color: white;
+}
+.not-pass{
+  background-color: red;
+  font-size: 20px;
+  color: white;
+}
+.okay{
+  background-color: green;
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+}
+.not-okay{
+  background-color: red;
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+}
